@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sakhawat Hosen\\Desktop\\test\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj": {}
+    "C:\\Users\\Sakhawat Hosen\\Desktop\\Aspnetcore\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sakhawat Hosen\\Desktop\\test\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj": {
+    "C:\\Users\\Sakhawat Hosen\\Desktop\\Aspnetcore\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sakhawat Hosen\\Desktop\\test\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Sakhawat Hosen\\Desktop\\Aspnetcore\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj",
         "projectName": "DevSkill.LibrarySystem.Web",
-        "projectPath": "C:\\Users\\Sakhawat Hosen\\Desktop\\test\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj",
+        "projectPath": "C:\\Users\\Sakhawat Hosen\\Desktop\\Aspnetcore\\Aspnetcore\\DevSkill.LibrarySystem.Web\\DevSkill.LibrarySystem.Web.csproj",
         "packagesPath": "C:\\Users\\Sakhawat Hosen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sakhawat Hosen\\Desktop\\test\\Aspnetcore\\DevSkill.LibrarySystem.Web\\obj\\",
+        "outputPath": "C:\\Users\\Sakhawat Hosen\\Desktop\\Aspnetcore\\Aspnetcore\\DevSkill.LibrarySystem.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
