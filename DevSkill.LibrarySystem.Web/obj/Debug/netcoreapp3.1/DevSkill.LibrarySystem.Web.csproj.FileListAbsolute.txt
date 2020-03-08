@@ -419,3 +419,5 @@ C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web
 C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web\obj\Debug\netcoreapp3.1\DevSkill.LibrarySystem.Web.dll
 C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web\obj\Debug\netcoreapp3.1\DevSkill.LibrarySystem.Web.pdb
 C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web\obj\Debug\netcoreapp3.1\DevSkill.LibrarySystem.Web.csprojAssemblyReference.cache
+C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LeftMenu.cshtml.g.cs
+C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs

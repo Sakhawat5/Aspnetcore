@@ -12,9 +12,41 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\Sakhawat Hosen\Desktop\Aspnetcore\Aspnetcore\DevSkill.LibrarySystem.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using DevSkill.LibrarySystem.Web.Areas.Admin.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8f2bad7d53b7261968d0ad72f2b8396a1e8f2dcd", @"/Areas/Admin/Views/Dashboard/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"56f39c818b538ec5d46bcc0912189801da3d318b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Dashboard_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        #pragma warning restore 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -363,15 +395,33 @@ namespace AspNetCore
                         </div>
                         <!-- /.card-body -->
                         <div class=""card-footer"">
-                            <form action=""#"" method=""post"">
+                            ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f2bad7d53b7261968d0ad72f2b8396a1e8f2dcd23668", async() => {
+                WriteLiteral(@"
                                 <div class=""input-group"">
                                     <input type=""text"" name=""message"" placeholder=""Type Message ..."" class=""form-control"">
-                                    <span class=""input-group-append""");
-            WriteLiteral(@">
+                                    <span class=""input-group-append"">
                                         <button type=""button"" class=""btn btn-primary"">Send</button>
                                     </span>
                                 </div>
-                            </form>
+                            ");
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
+            __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_1.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_1);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral(@"
                         </div>
                         <!-- /.card-footer-->
                     </div>
@@ -387,11 +437,11 @@ namespace AspNetCore
                             <div class=""card-tools"">
                                 <ul class=""pagination pagination-sm"">
                                     <li class=""page-item""><a href=""#"" class=""page-link"">&laquo;</a></li>
-                                    <li class=""page-item""><a href=""#"" class=""pa");
-            WriteLiteral(@"ge-link"">1</a></li>
+                                    <li class=""page-item""><a href=""#"" class=""page-link"">1</a></li>
                                     <li class=""page-item""><a href=""#"" class=""page-link"">2</a></li>
                                     <li class=""page-item""><a href=""#"" class=""page-link"">3</a></li>
-                                    <li class=""page-item""><a href=""#"" class=""page-link"">&raquo;</a></li>
+   ");
+            WriteLiteral(@"                                 <li class=""page-item""><a href=""#"" class=""page-link"">&raquo;</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -405,8 +455,8 @@ namespace AspNetCore
                                         <i class=""fas fa-ellipsis-v""></i>
                                     </span>
                                     <!-- checkbox -->
-            ");
-            WriteLiteral("                        <div class=\"icheck-primary d-inline ml-2\">\r\n                                        <input type=\"checkbox\"");
+                                    <div class=""icheck-primary d-inline ml-2"">
+                                        <input type=""checkbox""");
             BeginWriteAttribute("value", " value=\"", 21033, "\"", 21041, 0);
             EndWriteAttribute();
             WriteLiteral(@" name=""todo1"" id=""todoCheck1"">
